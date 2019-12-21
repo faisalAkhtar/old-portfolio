@@ -1,12 +1,55 @@
-
 <!DOCTYPE html>
 <html>
 <head>
-	<title>404</title>
+<meta charset="UTF-8">
+<meta content="Faisal Akhtar, Shubhangi Goyal" name="author">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<title>Object not found!</title>
+<style type="text/css">
+	@font-face{font-family:"Montserrat";src:url('/all/home/Montserrat-Regular.ttf');}
+	@font-face{font-family:"Audiowide";src:url('/all/myCloud/files/Audiowide-Regular.ttf');}
+	@font-face{font-family:"Freakshow";src:url('/all/myCloud/files/freakshow.regular.ttf');}
+	body{background-color:#001;font-family:'Montserrat';color:#fff;margin:0;}header,footer{width:100%;background-color:#112;position:fixed}header{top:0;padding:0}header li{float:left;}header li img{width:100px;margin:0 50px;float:right;}header #title{position:absolute;width:100%;text-align:center;}
+	header .XAMPP #out{display:none;}
+	.menu:hover #out{display:inline;}.menu:hover #in{display:none;}
+	header ul{list-style-type:none;margin:0;padding:0;overflow:hidden;}header li a, .XAMPP{display:inline-block;color:white;text-align:center;padding:15px;text-decoration:none;}header li.menu{display:inline-block;padding:20px 90px 0 0;float:right;}.menuItems{display:none;position:absolute;background-color:#fff;min-width:200px;z-index:1;margin-left:-40px}.menuItems a{color:#001;padding:15px;text-decoration:none;display:block;text-align:left;}.menuItems a:hover{background-color:#113;color:#fff}.menu:hover .menuItems{display:block;}hr{margin:25px 0;border:1px solid lavender;border-radius:100%;}footer{bottom:0;margin:0;padding:0 50px}footer a{color:#fff;text-decoration:none}footer #dimensions{float:right;margin:0 100px}
+    main{color:lavender;margin:100px 0 50px 0;padding:20px 10%;text-align:center;}main a:link {color:crimson;}main .small{display:none;}address{font-style:initial;font-family:Audiowide;background-color:lavender;padding:20px;border-radius:10px;color:#001;}.errorTxt{font-family:Freakshow;font-size:1250%;margin:-50px 0 -150px 0;}
+    span {font-size: smaller;}
+	::-webkit-scrollbar { width: 8px; }
+	::-webkit-scrollbar-track { box-shadow: inset 0 0 3px grey;	border-radius: 8px;	}
+	::-webkit-scrollbar-thumb {	background: crimson; border-radius: 8px; -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3); }
+    @media screen and (max-width:1279px){header li img{width:75px;margin-left:20px;}#title,#copy{display:none;}main{margin-top:75px;}main .small{display:block;}header li.menu{padding-right:20px;}.errorTxt{font-family:Freakshow;font-size:600%;margin:0 0 -50px 0;}footer #dimensions{margin:0 60px;}}
+</style>
 </head>
 
 <body>
-	<h1>Error 404</h1>
-	<h2>Page not found!!</h2>
+	<header>
+	<ul>
+		<li><img src="/all/home/logo.png"></li>
+		<li id="title"><h1>Object not found!</h1></li>
+	</ul>
+	</header>
+
+	<main>
+		<h2 class="small">Object not found!</h2>
+		<p class="errorTxt">404</p>
+			The requested URL was not found on this server.<br>
+			If you entered the URL manually please check your spelling and try again.
+		</p>
+		<hr>
+		<address>
+			Go to the <a href="/all/">Homepage</a><br/>
+		</address>
+	</main>
+
+	<footer>
+		<p id="dimensions">aaa x bbb</p>
+		<a id="copy" href="portfolio">©Faisal Akhtar</a>
+		<script>
+			setInterval(function() {
+						document.getElementById("dimensions").innerHTML = window.innerWidth + " x " + window.innerHeight;
+					},50);
+		</script>
+	</footer>
 </body>
 </html>
