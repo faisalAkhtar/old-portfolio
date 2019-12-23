@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Faisal">
+	<meta name="author" content="Faisal Akhtar's learning, experimenting and fun-lab">
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+	<link rel="icon" href="icon.png">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<title>Learning, experimenting and having fun</title>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<style type="text/css">
+		body{font-family:"Montserrat";font-size:250%;background-color:#335;color:#f81;text-align:center;overflow-x:hidden;overflow-y:auto;}main{padding:50px}.col-sm-4{transition:transform 0.1s ease;padding:40px 80px;}.col-sm-4:hover{transform:scale(1.1);}.col-sm-4 a{text-decoration:none;}.caption{color:#f81;}br{display:none;}#dimensions{float:right;font-size:75%}
+		@media screen and (max-width:1366px) {
+			.col-sm-4 {
+				padding: 40px
+			}
+		}
+		@media screen and (max-width:768px) {
+			.col-sm-4 {
+				padding: 20px
+			}
+			br {
+				display: inline;
+			}
+			main {
+				padding: 20px
+			}
+		}
+		@media screen and (max-width:1366px){.col-sm-4{padding:40px}}
+		@media screen and (max-width:768px){.col-sm-4{padding:20px}br{display:inline;}main{padding:20px}}
+	</style>
+</head>
+<body>
+<main>
+	<div class="page-header">
+		<h1>Learning <br> PHP, <br> JS <br> and more...</h1>
+	</div>
+	<div class=container-fluid>
+		<div class="row">
+			<a href="jhanjhiiKiProblem/">
+				<div class="col-sm-4">
+					<img class="img-responsive" src="emerging.png">
+					<div class="caption"><p>Full screen showcase</p></div>
+				</div>
+			</a>
+			<a href="SwiperSlider/">
+				<div class="col-sm-4">
+					<img class="img-responsive" src="swiper.png">
+					<div class="caption"><p>Swiper Slider</p></div>
+				</div>
+			</a>
+			<a href="parallax/">
+				<div class="col-sm-4">
+					<img class="img-responsive" src="parallax.png">
+					<div class="caption"><p>Parallax Effect</p></div>
+				</div>
+			</a>
+		</div>
+
+		<div class="row">
+			<a href="practicals/">
+				<div class="col-sm-4">
+					<img class="img-responsive" src="pracs.png">
+					<div class="caption"><p>Practicals (PHP)</p></div>
+				</div>
+			</a>
+			<a href="email/">
+				<div class="col-sm-4">
+					<img class="img-responsive" src="email.png">
+					<div class="caption"><p>Sending contact info to email</p></div>
+				</div>
+			</a>
+			<a href="namrataKiProblem/">
+				<div class="col-sm-4">
+					<img class="img-responsive" src="flip.png">
+					<div class="caption"><p>Flipping images</p></div>
+				</div>
+			</a>
+		</div>
+
+		<div class="row">
+			<a href="Uploading/">
+				<div class="col-sm-4">
+					<img class="img-responsive" src="uploading.png">
+					<div class="caption"><p>Upload</p></div>
+				</div>
+			</a>
+			<a href="databaseExample/">
+				<div class="col-sm-4">
+					<img class="img-responsive" src="form.png">
+					<div class="caption"><p>PHP Form</p></div>
+				</div>
+			</a>
+			<a href="databaseConnection/">
+				<div class="col-sm-4">
+					<img class="img-responsive" src="msg.png">
+					<div class="caption"><p>Send a message</p></div>
+				</div>
+			</a>
+		</div>
+	</div>
+</main>
+
+<footer>
+	<p>©<a href="https://faisalakhtar.in" target="_blank">Faisal Akhtar</a></p>
+	<p id="dimensions">aaa x bbb</p>
+</footer>
+<script>
+	setInterval(function() {
+				document.getElementById("dimensions").innerHTML = window.innerWidth + " x " + window.innerHeight;
+			},50);
+</script>
+</body>
+</html>
