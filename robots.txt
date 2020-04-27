@@ -21,3 +21,8 @@ Allow: /*
 
 User-Agent: msnbot-media
 Allow: /*
+
+User-Agent: Teoma
+Allow: /
+
+Sitemap: https://faisalakhtar.github.io/sitemap.xml
